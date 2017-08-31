@@ -1,0 +1,19 @@
+{
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "name": "myEventHubMessage",
+      "direction": "in",
+      "path": "ledgerdemo",
+      "connection": "ledgerdemo_azurefunctions_EVENTHUB"
+    },
+    {
+      "type": "table",
+      "name": "tableBinding",
+      "tableName": "LedgerDemo",
+      "connection": "ledgderdbconnector_STORAGE",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}
