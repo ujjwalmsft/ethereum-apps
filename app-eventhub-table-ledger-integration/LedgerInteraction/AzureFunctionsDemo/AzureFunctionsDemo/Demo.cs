@@ -45,7 +45,7 @@ namespace AzureFunctionsDemo
             var contractAddress = "xxx";
             var abi = @"[{ ""constant"":false,""inputs"":[{""name"":""hashVal"",""type"":""string""},{""name"":""timestap"",""type"":""string""}],""name"":""storeHash"",""outputs"":[],""payable"":false,""stateMutability"":""nonpayable"",""type"":""function""},{""constant"":false,""inputs"":[{""name"":""hashVal"",""type"":""string""}],""name"":""getHashProof"",""outputs"":[{""name"":"""",""type"":""string""}],""payable"":false,""stateMutability"":""nonpayable"",""type"":""function""},{""inputs"":[],""payable"":false,""stateMutability"":""nonpayable"",""type"":""constructor""}]";
 
-            var web3 = new Web3("http://ethprao7p.westeurope.cloudapp.azure.com:8545");
+            var web3 = new Web3("http://xxx.westeurope.cloudapp.azure.com:8545");
 
             var contract = web3.Eth.GetContract(abi, contractAddress);
 
