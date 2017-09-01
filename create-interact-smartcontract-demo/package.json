@@ -9,12 +9,8 @@
     "node": "~6.10.x"
   },
   "author": {
-    "name": "jozessin"
+    "name": "dr-dolittle"
   },
   "dependencies": {
-    "express": "^4.15.3",
-    "restify": "^4.3.0",
-    "tedious": "^2.0.0",
-    "util": "^0.10.3"
   }
 }

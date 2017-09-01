@@ -3,6 +3,12 @@
 *   Install Visual Studio Code
     *   Install `Solidity` extension
 
+*   Install npm modules via `npm install <packageName> --save`
+    *   "express"
+    *   "restify"
+    *   "tedious"
+    *   "util"
+
 *   Set up an Ethereum instance in Azure
 
 *   Setup connection to the network in Azure
