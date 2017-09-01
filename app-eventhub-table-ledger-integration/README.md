@@ -1,3 +1,14 @@
+# Short Description
+
+*   The app fetches the current bitcoin price with some metadata every 30 seconds
+    *   A timestamp is generated
+    *   The data is hashed
+*   The data including the hash and timestamp is send to an Event Hub
+*   This triggers a Azure Functions function
+    *   All data is stored in an Azure Table
+    *   The hash and the timestamp are stored on an Ethereum Ledger instance
+
+
 # Steps to deploy the solution
 
 ## Create the input source
