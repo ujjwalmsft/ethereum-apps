@@ -1,0 +1,2 @@
+C:\temp\meetup-demo\project-simple-contract-demo\obj\Debug\project-simple-contract-demo.njsprojResolveAssemblyReference.cache
+C:\temp\meetup-demo\project-simple-contract-demo\bin\Microsoft.NodejsTools.WebRole.dll

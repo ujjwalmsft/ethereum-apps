@@ -1,0 +1,20 @@
+{
+  "name": "project-simple-contract-demo",
+  "version": "0.0.0",
+  "description": "project-simple-contract-demo",
+  "scripts": {
+    "start": "node server"
+  },
+  "engines": {
+    "node": "~6.10.x"
+  },
+  "author": {
+    "name": "jozessin"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "restify": "^4.3.0",
+    "tedious": "^2.0.0",
+    "util": "^0.10.3"
+  }
+}

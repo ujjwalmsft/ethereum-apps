@@ -1,0 +1,247 @@
+{
+  "contract_name": "SimpleContract",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "killContract",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "getStateOfSettlement",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "state",
+          "type": "bool"
+        }
+      ],
+      "name": "changeStateOfSettlement",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "settlement",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "message",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "name": "creator",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "stateOfSettlement",
+          "type": "bool"
+        }
+      ],
+      "name": "ContractCreated",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "message",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "name": "caller",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "stateOfSettlement",
+          "type": "bool"
+        }
+      ],
+      "name": "ContractSettled",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "name": "message",
+          "type": "string"
+        },
+        {
+          "indexed": false,
+          "name": "addressOfTheContract",
+          "type": "address"
+        },
+        {
+          "indexed": false,
+          "name": "stateOfSettlement",
+          "type": "bool"
+        }
+      ],
+      "name": "StateChange",
+      "type": "event"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000c57fe5b5b6000805460a060020a60ff0219600160a060020a03338116600160a060020a03199093169290921790811692839055604080519190921660208201527401000000000000000000000000000000000000000090920460ff1615158282015260608083526011908301527f436f6e74726163742063726561746564210000000000000000000000000000006080830152517f373bd28d054eaf693831cdae747368bf9813de325a417343cb38b115cc82e1049181900360a00190a15b5b610282806100d86000396000f300606060405263ffffffff60e060020a6000350416631c02708d811461004257806326d22d89146100545780634198c31f14610078578063511606301461008f575bfe5b341561004a57fe5b6100526100a1565b005b341561005c57fe5b6100646100af565b604080519115158252519081900360200190f35b341561008057fe5b61005260043515156100c0565b005b341561009757fe5b6100526101a8565b005b33600160a060020a0316ff5b565b60005460a060020a900460ff165b90565b600181151514156100e6576000805460a060020a60ff02191660a060020a179055610108565b801515610102576000805460a060020a60ff0219169055610108565b60006000fd5b5b6000546040805130600160a060020a0316602082015260a060020a90920460ff161515828201526060808352602b908301527f546865207374617465206f662074686520636f6e747261637420686173206265608083015260a860020a6a656e206368616e676564210260a0830152517ffd5630ec3c3231938c46a4bd90b4e600e0323be4bc776922c14e1fa4aabe97289160c0908290030190a15b50565b60005460a060020a900460ff161515600114156101c55760006000fd5b6000805460a060020a60ff02191660a060020a9081179182905560408051600160a060020a03331660208201529190920460ff161515818301526060808252601190820152607860020a70436f6e747261637420736574746c65642102608082015290517ff506a1e2e8cd68ada84018130e81519ac4b1acf25fc3c87e5341721e6cc851459181900360a00190a15b5600a165627a7a72305820441f82d5facf02ce721726dddbdf787ec35659a7216ae3745b0e6839e0809de80029",
+  "networks": {
+    "10101010": {
+      "events": {
+        "0x373bd28d054eaf693831cdae747368bf9813de325a417343cb38b115cc82e104": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "message",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "name": "creator",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "stateOfSettlement",
+              "type": "bool"
+            }
+          ],
+          "name": "ContractCreated",
+          "type": "event"
+        },
+        "0xf506a1e2e8cd68ada84018130e81519ac4b1acf25fc3c87e5341721e6cc85145": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "message",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "name": "caller",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "stateOfSettlement",
+              "type": "bool"
+            }
+          ],
+          "name": "ContractSettled",
+          "type": "event"
+        },
+        "0xfd5630ec3c3231938c46a4bd90b4e600e0323be4bc776922c14e1fa4aabe9728": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "message",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "name": "addressOfTheContract",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "stateOfSettlement",
+              "type": "bool"
+            }
+          ],
+          "name": "StateChange",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0xd8203eff8c374ab9020bfac3bdaa55b9b49db691",
+      "updated_at": 1504263783257
+    },
+    "1498130534612": {
+      "events": {
+        "0x373bd28d054eaf693831cdae747368bf9813de325a417343cb38b115cc82e104": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "message",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "name": "creator",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "stateOfSettlement",
+              "type": "bool"
+            }
+          ],
+          "name": "ContractCreated",
+          "type": "event"
+        },
+        "0xf506a1e2e8cd68ada84018130e81519ac4b1acf25fc3c87e5341721e6cc85145": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "message",
+              "type": "string"
+            },
+            {
+              "indexed": false,
+              "name": "caller",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "stateOfSettlement",
+              "type": "bool"
+            }
+          ],
+          "name": "ContractSettled",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0xe1970d0591eaa94bb6d8aac4fb7223b0e006a6c5",
+      "updated_at": 1498130675437
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1504263783257
+}
